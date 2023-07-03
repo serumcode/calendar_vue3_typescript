@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    @apply relative;
+  }
+  body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply bg-dark
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#377907 ; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dee87f; 
+}
+ #app *{
+  @apply focus:outline-none
+ }

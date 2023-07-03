@@ -1,0 +1,56 @@
+const messages = {
+    en: {
+        hu: "Hungarian",
+        en: "English",
+        add_event:"Add event",
+        remove_event:"Remove Event",
+        calendar:"Calendar",
+        loop:"Loop",
+        loop_end:"Loop end",
+        no_loop:"No loop",
+        every_week:"Every week",
+        even_week:"Even week",
+        odd_week:"Odd week",
+        if_this_empty:"If this field is empty, the loop is infinity",
+        add:"Add",
+        delete:"Delete",
+        event_start:"Event start",
+        event_end:"Event end",
+        title_patient_name:"Title / Client name",
+        from:"From",
+        to:"To",
+        about:'About',
+        back_to_homepage:"Back to the home page",
+        demo_app:"This. is a demo calendar application",
+        sample_delete:"This function is not full. It can remove the source event, but can't remove a date from a range event."
+    },
+    
+
+    hu: {
+        hu: "Magyar",
+        en: "Angol",
+        add_event:"Esemény hozzáadása",
+        remove_event:"Esemény törlése",
+        calendar:"Naptárka",
+        loop:"Ismétlés",
+        loop_end:"Ismétlés vége",
+        no_loop:"Nincs ismétlés",
+        every_week:"Minden héten",
+        even_week:"Páros héten",
+        odd_week:"Páratlan héten",
+        if_this_empty:"Ha üresen marad, akkor végtelen lesz az ismétlés",
+        add:"Hozzáadás",
+        delete:"Törlés",
+        event_start:"Esemény kezdete",
+        event_end:"Esemény vége",
+        title_patient_name:"Cím / Páciens neve",
+        from:"Ettől",
+        to:"Eddig",
+        about:"Mi ez?",
+        back_to_homepage:"Vissza a főoldalra",
+        demo_app:"Ez egy bemutató naptár applikáció.",
+        sample_delete:"Ez a funkció még nem teljes. Csak a forrás eseményt lehet törölni,  de egy adott időpontra vonatkozót még nem."
+
+    },
+};
+export default messages;
